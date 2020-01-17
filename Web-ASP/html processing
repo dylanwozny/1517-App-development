@@ -1,0 +1,64 @@
+we can make one change to css/html and it applies to every webpage 
+
+every new page has the same start up page
+1. layout page > 1 file
+2. content page > 1 file
+
+layout page and content pages are merged into a html page by processing program
+
+
+1. Visual Studio >>>>>>> ASP.net FRAMEWORK
+
+2. put in github folder
+
+3. configure for HTTP --OFF--
+
+	HOW TO TURN OFF if already created project
+	- web app properties > web(left side) > take off 's' in https, then add a digit to end of number at he end
+	- click on project in top right, > go to web app properties(botton right) and turn ssl enabled to false.
+	- save, close program, got to explorer folder location, trun on hidden folders and file extensions
+	- delete .vs ,then reopen project.
+	
+4. create new layout page > rclick > add new item > search for layout > layout page Razor v3
+
+
+@ symbol says..escape from html and go to C# mode
+as soon it hits html, it goes back to HTML mode
+
+5. create viewpage WITH LAYOUT
+
+6. choose to use layout1 in choice
+
+7. write in viewpage
+
+
+
+
+<form>
+
+method = "get | post"
+
+get: url is long transfersing information , data is seen in url. this is get
+post: content is hidden and not visible in url. this is post
+
+<input>
+
+input controls. diffrent objects and characteristics
+type = "text"
+
+text: is default
+
+id = "javascriptname"
+for get element in java script
+-- either or--
+name = "codingname"
+
+
+
+
+
+
+
+
+
+

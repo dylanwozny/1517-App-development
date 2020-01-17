@@ -1,0 +1,41 @@
+﻿@{
+    Layout = "~/_Layout1.cshtml";
+    Page.title = "Hello World";
+    //this line of code will retrieve the contents of a named input control
+    //data is within the request structure
+    //data enters your code as a string
+    //this is C# coding so all C# rule apply
+    string inputData = Request.Form["codingname"];
+}
+
+
+
+<h1>Hello World</h1>
+
+
+@if (IsPost)
+{
+    <p>this page has appered before. you enters the string
+    &gt; @inputData &lt;</p>
+}
+else
+{
+    <p>this is the first time the page has appeared</p>
+}
+
+<form id="theform" method="post">
+    <table>
+        <tr>
+            <td>
+                <input type="type" id="javascriptname" name="codingname" />
+                &nbsp;&nbsp;
+            </td>
+            <td>               
+                <input type="button" id="pressme" name="pressme" value="displaytext" />
+            </td>
+        </tr>
+    </table>
+
+
+</form>
+
