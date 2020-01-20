@@ -7,7 +7,13 @@ every new page has the same start up page
 layout page and content pages are merged into a html page by processing program
 
 
-1. Visual Studio >>>>>>> ASP.net FRAMEWORK
+1. Visual Studio>newproject> blank solution  
+
+2. Right click project  Add  New Project
+2. Select Visual C#  Web  ASP.NET Web Application (.Net Framework). 
+2.Check Location is in your solution folder. 
+Select Template. Select Empty for this example. Press OK.
+2.Right click project  Add  New Item. Select Layout Page (Razor v3). Change name to be _Layout.cshtml. Press Ok.
 
 2. put in github folder
 
@@ -19,13 +25,11 @@ layout page and content pages are merged into a html page by processing program
 	- save, close program, got to explorer folder location, trun on hidden folders and file extensions
 	- delete .vs ,then reopen project.
 	
-4. create new layout page > rclick > add new item > search for layout > layout page Razor v3
-
 
 @ symbol says..escape from html and go to C# mode
 as soon it hits html, it goes back to HTML mode
 
-5. create viewpage WITH LAYOUT
+5. Rclick project > create viewpage WITH LAYOUT
 
 6. choose to use layout1 in choice
 
