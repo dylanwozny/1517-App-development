@@ -1,0 +1,36 @@
+package manager > click yellow bar restore
+restart VS
+if doesnt work, go to folder and views and select hidden folders
+delete .vs hidden folder
+
+Things to check for in the VS project < IN MOODLE microsoft doc.
+
+MCV 5 With layout razor for content pages
+
+If you have a complicated webpage, use a seperate file to format the layout page
+isntead of edititng the layout.
+
+@RenderSection() for each block that is not body
+
+required: false means it doesnt need to be one every page !
+
+
+For Css formatting
+Rclick webapp > manage NuGet > search bootstrap > install
+go to update tab at top > update jQuery.
+
+custom css file in content folder of boostrap
+
+copy and paste styles you want to overwrite from bootstrap into your own style page
+
+to make a custom layout page called _menu
+create a seperate menu page MCV 5 with layout razor, delete content on it.
+
+using menu layout on _layout.
+ @RenderPage("~/_menu.cshtml")
+
+every radio button needs a value to asscoite what is clicked
+
+do css layout before logic !
+
+dont push until end, do small commits and if there is a problem then revert a commit in history.
