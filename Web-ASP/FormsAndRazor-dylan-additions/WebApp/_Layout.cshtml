@@ -17,8 +17,9 @@
 
         we will use the "banner" section to handle the page title and menu
 
-        RenderSection is required (default) on each content page unless the required parameter has been set to false*@
+        RenderSection is required (default) on each content page, it will show up on every page, unless the required parameter has been set to false*@
         <div class="jumbotron">
+            @RenderPage("~/_menu.cshtml")
             @RenderSection("banner")
         </div>
 
