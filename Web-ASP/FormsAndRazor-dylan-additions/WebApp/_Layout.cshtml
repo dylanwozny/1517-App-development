@@ -2,9 +2,32 @@
 <html>
 <head>
     <title>@Page.Title</title>
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.js"></script>
+    @*add any of your own customized stylesheets*@
+    <link href="~/Content/customstyles.css" rel="stylesheet" />
+
+    @*if you use this section on your content page, you are specifying specific css styling for that particuler page*@
     @RenderSection("head", required: false)
 </head>
 <body>
-    @RenderBody()
+    <div class="container-fluid">
+        @*a render section is a secondary content block that can be used for specific non-main content body display
+
+        we will use the "banner" section to handle the page title and menu
+
+        RenderSection is required (default) on each content page unless the required parameter has been set to false*@
+        <div class="jumbotron">
+            @RenderSection("banner")
+        </div>
+
+
+        @*Render body is the main default area where your content apge will be displayed. The renderBody refernece is
+        phsyically removed and tour context inserted*@
+        @RenderBody()
+
+        @RenderSection("footer", required: false)
+    </div>
 </body>
 </html>
