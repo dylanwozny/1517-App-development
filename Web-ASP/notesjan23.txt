@@ -9,3 +9,15 @@ add in "" values in else isPost {}
 
 refernecing a control that doesnt exsist it comes back at null
 
+copy some of the code from exercises > menu bar 
+two column form, use bootstrap
+steps in word are 2017, use 2019 steps in notes
+check whats in classroom project for which boostrap is latest
+
+checkbox selections must be retained on page
+@(Array.IndexOf(choices.Split(','),"Phone") >= 0 ? "checked" : "")
+
+Submit through repository
+
+
+

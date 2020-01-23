@@ -1,6 +1,7 @@
 ﻿@{
     Layout = "~/_Layout.cshtml";
     Page.Title = "check boxes";
+    var choices = Request.Form["CheckBoxGroup"];
 }
 
 
@@ -8,21 +9,58 @@
     <h1>Using check boxes</h1>
 }
 
+@if (IsPost)
+{
+    if (choices.IsEmpty())
+    {
+        <p><span style="color:firebrick">So you do not like to play games ?</span></p>
+    }
+
+    else
+    {
+        // choices will be a string of values seperated by a comma
+        // i will need to split this string up at the commas
+        // to do so, we will use the single method .split(delimiter)
+        // the dilimiter is the character that seprates your values
+        <p>
+            I see you like to use the following gaming platforms:
+            <ul>
+                @foreach(var item in choices.Split(','))
+                {
+                    <li>@item</li>
+
+                }
+            </ul>
+        </p>
+
+    }
+}
+else
+{
+    choices = "";
+}
 <form id="theForm" method="post">
     <div class="col-md-2-offset-1">
         <label for="CheckBoxGroup">Select your favourite gaming platform</label><br />
         <input type="checkbox" name="CheckBoxGroup" inputmode="CheckBoxGroup"
-               value="PS4" />PS4<br />
+               value="PS4"
+               @*this just makes the button stay clicked in *@
+               @(Array.IndexOf(choices.Split(','),"PS4") >= 0 ? "checked" : "")/>PS4<br />
         <input type="checkbox" name="CheckBoxGroup" inputmode="CheckBoxGroup"
-               value="PC" />PC<br />
+               value="PC"
+               @(Array.IndexOf(choices.Split(','),"PC") >= 0 ? "checked" : "")/>PC<br />
         <input type="checkbox" name="CheckBoxGroup" inputmode="CheckBoxGroup"
-               value="Xbox One" />Xbox One<br />
+               value="Xbox One"
+               @(Array.IndexOf(choices.Split(','),"Xbox One") >= 0 ? "checked" : "") />Xbox One<br />
         <input type="checkbox" name="CheckBoxGroup" inputmode="CheckBoxGroup"
-               value="Nintendo Switch" />Nintendo Switch<br />
+               value="Nintendo Switch"
+                @(Array.IndexOf(choices.Split(','),"Nintendo Switch") >= 0 ? "checked" : "")/>Nintendo Switch<br />
         <input type="checkbox" name="CheckBoxGroup" inputmode="CheckBoxGroup"
-               value="Phone" />Phone<br />
+               value="Phone"
+                @(Array.IndexOf(choices.Split(','),"Phone") >= 0 ? "checked" : "")/>Phone<br />
         <input type="checkbox" name="CheckBoxGroup" inputmode="CheckBoxGroup"
-               value="Wii" />Wii<br />
+               value="Wii" 
+                @(Array.IndexOf(choices.Split(','),"Wii") >= 0 ? "checked" : "")/>Wii<br />
         <button type="submit" name="theButton" id="theButton" value="submit"
                 class="btn btn-primary">Submit</button>
     </div>

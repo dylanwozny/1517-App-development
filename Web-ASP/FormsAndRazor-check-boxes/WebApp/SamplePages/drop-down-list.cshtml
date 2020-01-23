@@ -1,0 +1,28 @@
+﻿@{
+    Layout = "~/_Layout.cshtml";
+    Page.Title = "DropDownList (select)";
+    var choice = Request.Form["CodingSamples"];
+}
+
+@section banner{
+    <h1>Using Select control for a dropDownList</h1>
+}
+
+
+
+<form>
+    <div class="offset-1">
+        <label for="codingSamples">Select the sample to view</label><br />
+        @*a single select is created using the option tag
+        the tag has a parameter call value
+        the display text is coded betweenthe opening and closing tag*@
+    <select id="codingSamples" name="CodingSamples">
+        <option value="">Select...</option>
+        <option value="TextBoxes">TextBoxes</option>
+        <option value="RadioButtons">RadioButtons</option>
+        <option value="CheckBoxes">CheckBoxes</option>
+        <option value="TextBoxes">TextBoxes</option>
+    </select>
+
+    </div>
+</form>
