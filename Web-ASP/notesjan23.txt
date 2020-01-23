@@ -1,0 +1,11 @@
+use tenary operator for checked radio button
+
+make sure var is in scope
+
+create global vars at top of apge
+add in "" values in else isPost {} 
+
+@{} use this to switch to c#
+
+refernecing a control that doesnt exsist it comes back at null
+

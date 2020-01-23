@@ -1,4 +1,4 @@
-we can make one change to css/html and it applies to every webpage 
+﻿e can make one change to css/html and it applies to every webpage 
 
 every new page has the same start up page
 1. layout page > 1 file
