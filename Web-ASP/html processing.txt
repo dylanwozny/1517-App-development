@@ -58,6 +58,16 @@ for get element in java script
 name = "codingname"
 
 
+1. Create SOLUTION, search for windows,web,c# using ASP.NET (framework). 
+2. choose location in github folder.
+2. Uncheck solution and project in same folder ??
+3. choose empty solution, and uncheck HTTPS
+4. rclick solution(TOP OF LIST, purple ribbon logo over window)
+5. select add new project. select Visual C#, Web, Asp.Net Web Application (.Net Framework)(NOTE: select one with C#
+the other one is visual basic, do not click visual basicv)
+6. create, choose empty, and NO HTTPS
+
+
 
 
 
