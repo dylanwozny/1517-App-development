@@ -1,5 +1,7 @@
 sql server manager 2017
 
+restore database first
+
 BAC file cannot only be found in temp
 Bacpac file can be found anywhere on computer
 
@@ -40,6 +42,8 @@ add connection string under <configuration> in web.config
 
 then....
 create new viewpage with layout and create
+
+value fields are used display variables
 
 
 
