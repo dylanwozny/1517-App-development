@@ -1,0 +1,48 @@
+sql server manager 2017
+
+BAC file cannot only be found in temp
+Bacpac file can be found anywhere on computer
+
+Remeber sever name that you use to log at (especially at home)
+
+At school => use just '.'
+
+move northwind .bak file to TEMP folder in (C:)
+
+follow restore steps on word doc. (this will idns the bak)
+overwrite current database to restore > check word doc for steps
+
+wil be checking to see if table is null or not null alot
+
+
+Look At Stored Procedures
+programability > stored procdures
+Rclick on procdure > modify to see procdure
+Rclick on procdure > execute stored procdure
+
+update nuget packages (webpages and webpages data)
+
+connection string is between database and app
+in web.config file
+
+Seperate file connection so we dont do damage to config
+web.config file > connected > web connection string file
+
+add config > web configuration file
+delete contents
+
+XML is a custom markup language
+
+large applications may have large application strings. Ours only has one
+
+then...
+add connection string under <configuration> in web.config
+
+then....
+create new viewpage with layout and create
+
+
+
+
+
+
