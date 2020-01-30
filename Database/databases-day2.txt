@@ -1,0 +1,30 @@
+Pull down dons github
+
+
+multi record query
+Microsoft SQL Server Management Studio 17
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft SQL Server Tools 17
+
+
+connecting to database
+var db = database.Open()
+
+query command
+var querycommand = @ query...
+
+we are just retreiving databse information and storing it in vars
+
+if else inside for each keeps the selection inside the select catagory box on webpage !
+
+--Passsing data from one page to another !--
+
+look at url after redirect to see parameter
+
+security issues...
+url can be messed with with plain text
+
+db.query
+- this property changes if the results are only one or results are multiple
+
+WebGrid class displays reuslts from database
+can look at html formatting thorugh view page source
