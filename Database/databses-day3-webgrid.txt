@@ -48,3 +48,5 @@ to format code inside gethtml() brackets
                    onclick="return.confirm('are you sure you wish to view @item.productName ?')"></a>        
         </text>)
  
+ commit in Visual Studio, bottom left pencil.
+ Push is the up arrow
