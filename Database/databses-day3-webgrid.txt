@@ -1,0 +1,50 @@
+formatting web grid
+
+to format code inside gethtml() brackets
+
+<div class="row">
+    <div class="offset-1">
+        <span style="font-size:x-large"><strong>Products for category @incomingParameter</strong></span>
+        @* use WebGrid *@
+        @gridinstance.GetHtml(
+		// boostrap css styling the table
+       tableStyle: "table table-striped table-boarded table-hover",
+       mode: WebGridPagerModes.All,
+       firstText: "Start",
+       lastText: "End",
+  columns: gridinstance.Columns(
+      gridinstance.Column(columnName: "ProductID", header: "ID"),
+      gridinstance.Column(columnName: "ProductName", header: "Product"),
+      gridinstance.Column(columnName: "QuantityPerUnit", header: "Pkg"),
+      gridinstance.Column(columnName: "UnitPrice", header: "$",
+	  // this formats the item to 0.00
+        format:(item) => item.UnitPrice.ToString("0.00")),     
+      gridinstance.Column(columnName: "Discontinued", header: "Discontinued",
+	  // checkbox formating
+        format: @<input name="Discontinued" type="checkbox" value="@item.Discontinued"
+        @(item.Discontinued == true ? "Checked" : null)
+                        disabled="disabled" />
+      )
+ ))
+ 
+ 
+ Passsing information between this grid and another page
+ 
+  gridinstance.Column(header:"",
+        format: @<text>
+		// this is the link to newpage, the end of the url also passes information between pages
+                <a href="~/SamplePages/webgriddestination.cshtml?pid="@item.ProductID"></a>        
+        </text>)
+ 
+ Search Techniques Documents in moodle tells you how it can get complicated
+ 
+ 
+ 
+ second chance click
+ 
+ gridinstance.Column(header:"",
+        format: @<text>
+                <a href="~/SamplePages/webgriddestination.cshtml?pid=@item.ProductID"
+                   onclick="return.confirm('are you sure you wish to view @item.productName ?')"></a>        
+        </text>)
+ 
