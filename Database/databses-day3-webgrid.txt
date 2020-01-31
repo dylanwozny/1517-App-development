@@ -50,3 +50,20 @@ to format code inside gethtml() brackets
  
  commit in Visual Studio, bottom left pencil.
  Push is the up arrow
+ 
+ exercise two should be done by wednesday, so before class on thursday.
+ 
+ if roslyn error after restoring etc...
+ 
+ //1.delete packages in folder
+ //2.re-download the nuget packages
+ //3.r-click rebuild.
+ //4.look at (botton output when you do) fi it compiles right
+ //5.compile a second time.
+ 
+ //ADD TO EXERCISE 1, KEEP INPUT IN FIELD WHEN THEY HAVE NOT ENTERED THE OTHER FIELD
+ //REMEBER FIRST INPUT
+ 
+ 
+ 
+ 
