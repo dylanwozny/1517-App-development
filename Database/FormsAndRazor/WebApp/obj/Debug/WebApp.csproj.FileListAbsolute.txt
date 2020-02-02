@@ -21,7 +21,6 @@ C:\Users\dwozny2\Documents\GitHub\1517-App-development\Database\FormsAndRazor\We
 C:\Users\dwozny2\Documents\GitHub\1517-App-development\Database\FormsAndRazor\WebApp\bin\WebMatrix.WebData.xml
 C:\Users\dwozny2\Documents\GitHub\1517-App-development\Database\FormsAndRazor\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\dwozny2\Documents\GitHub\1517-App-development\Database\FormsAndRazor\WebApp\obj\Debug\WebApp.csprojAssemblyReference.cache
-C:\Users\dwozny2\Documents\GitHub\1517-App-development\Database\FormsAndRazor\WebApp\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
 C:\Users\dwozny2\Documents\GitHub\1517-App-development\Database\FormsAndRazor\WebApp\obj\Debug\WebApp.csproj.CopyComplete
 C:\Users\dwozny2\Documents\GitHub\1517-App-development\Database\FormsAndRazor\WebApp\obj\Debug\WebApp.dll
 C:\Users\dwozny2\Documents\GitHub\1517-App-development\Database\FormsAndRazor\WebApp\obj\Debug\WebApp.pdb
