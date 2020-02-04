@@ -1,0 +1,35 @@
+primary keys
+inserts 
+updates
+
+
+Create => insert
+Read => Query
+Update
+Delete
+
+insert page is fomatted with boostrap
+
+<title> 	is the tool tip message
+<placeholder> 	is the text before user input in text field
+<value> 	is the variable holder for C# reference 
+
+teranary Operator for check box, processing value of '' or checked for C#
+
+moving variables to clear button if statment so they reset to blank 
+
+coding steps
+
+1. create page with deafult hthml
+2. create the html with boostrap and look at page in web
+3. create vars and basic processing for Ispost and look at web page
+4. add processing to hmtl (<value>) and ternary operators
+5. add any exception catches with try catch
+6. create processsing to store data [request.Form["ProductName"]]
+7. create database processing
+
+
+adding string.isnullorempty operator because all of these values can be null
+all input is given to code AS A STRING
+
+validation for inserts Thursday....
