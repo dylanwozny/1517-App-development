@@ -1,0 +1,43 @@
+Insert continued 
+
+two things today
+
+handling the foreign keys
+
+Validation tommorow..... ?
+
+when the option is availible, let the user choose from a list of choices
+
+load a list dynamically from the database
+with drop down list
+
+
+in code notes------
+
+looping fro each through supplier and catagory to create drop down lists
+
+<option> inside for each is supplierid/catagoryid is to identify,
+but we use supplier.name/catagory.name for what is displayed !
+
+.IsNullorEmpty is good for text box, but not for drop down list
+use .Equals("0")
+0 must be in brackets because values returned from cdatabse are always in strings
+
+
+extra logic in for each....
+keeping information retained in drop down text box upon submit, so it doesnt defualt back to very first selection.
+Selected in <option> retains the selected value !
+
+
+//get the identity value of the last inserted record.
+        var x = db.GetLastInsertId();
+
+//display a successmessage
+	<p class="col-md-12 text-center">
+		<span style="color:green"><strong>New Product Added @x  </strong></span>
+	</p>
+
+
+
+Exercise 3
+first image is example of the bad way to do it !
