@@ -41,3 +41,42 @@ Selected in <option> retains the selected value !
 
 Exercise 3
 first image is example of the bad way to do it !
+
+
+
+    var thebutton = Request.Form["theButton"];
+
+    if (thebutton.Equals("submit"))
+    {
+        if (artistlist == "0")
+        {
+            <p style="color: firebrick">please select An Artist from the list !</p>
+        }
+
+        else
+        {
+            // page referal/ page throw
+            Response.Redirect("Exercise02_C.cshtml?cid=" + artistlist);
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
