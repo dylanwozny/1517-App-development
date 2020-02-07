@@ -1,0 +1,100 @@
+links in moodle tell you how to do validation
+
+why do we need validation ?
+
+if data is in a sql table then you assume it should be valid.
+
+client side validation should not let the user send request to the server...
+it should not be sent to server or requested from server.
+
+
+CONTROL LEVELS 
+
+--------------------------------SQL--------------------------------------------------------------
+------------Under the DBMS control-------------SERVER SIDE--------
+constraint at the table level can test attributes on the table
+constraint at the attribute level can only test attribute
+constraint at trigger level
+
+----------- SQL Procs --------------------SERVER SIDE-----------
+constraint with a procedure
+ - can be bypassed by using queries 
+
+--------------------------------Application-----------SERVER SIDE--------------------------------------------
+Appllication library
+- just coded logic using 'system'
+- can be bypassed
+
+-----------------------------WEB SERVER-----------SERVER SIDE-----------------------------------------------
+- can be bypassed
+- validation controls
+
+-----------------------------WEB SERVER---------CLIENT SIDE-------------------------------------------------
+- browser based
+- can be bypassed
+- HTML5
+- you do not leave your browser unitll the html is satisfied
+
+
+CODE NOTES IN VS 
+
+HTML VALIDATION
+
+---unit price NUMERIC---
+change type="" to number
+add in step="0.01" this allows to input cents !
+
+min and max can be used to limit the size of the number
+min="0.00"
+
+required
+this means the user must put in a value !
+
+validation only kicks in when user inputs a value if there in no required tag.
+
+html5 generates an error message for you !
+html5 will not let the user leave the page until all validation is correct, or user goes to a diffrent web page.
+
+
+C# VALIDATION CONTROLS
+
+both client and server side
+link in moodle is a good resource for syntax
+
+validation.Add("ProductName",
+	validator.Required("Product name is a required field"),
+	validator.StringLength(40,1,""product name is limited to 40 characters));	
+
+validation.Add("QuantityPerUnit",
+	validator.Required("Product name is a required field"),
+	validator.StringLength(20,0,""product name is limited to 20 characters));
+	
+validation.Add("UnitPrice",
+		Validator.Decimal("Unit Price must a dollar amount"),
+		Validator.Range())
+
+
+compare two fields EqualsTo()
+useful being used to confirm the password
+or confirm email address in second text box
+
+
+
+make a try catch to control error message from database...
+
+If (Validation.isValid()){
+try
+catch }
+
+--and-- 
+
+Is summary command 
+
+are required to work !
+
+C# CUSTOM LOGIC VALIDATION
+
+
+
+
+
