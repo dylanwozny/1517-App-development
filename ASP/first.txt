@@ -1,0 +1,88 @@
+Steps
+
+ASP.NET Framework
+
+webforms (turn off Https)
+
+
+
+---------Deafult Folders Already There----------
+
+AppData
+ - can bring a SQL database right into folder
+
+App Start Already has Bootsrap
+- styling
+
+Scripts
+- 
+
+About AspX
+- Content Page
+
+> About.apsx.cs
+- Where C# code goes
+
+Bundle Config
+- setups diffrent paths to grab things
+
+Default
+- page pops up when it runs
+
+Global.asax
+- executes When your application first begins.
+- Does not run when the webpage is only sleeping. 
+- Only executes when it physically starts up
+
+Config Packages
+- Automatically manages packages. dont touch
+
+SiteMaster
+- Layout Page
+
+MobileMaster
+- for mobile. not in this course
+
+Viewswitcher
+- dont worry about
+
+WebConfig
+- has to do with databases
+- will be modified when we apply databses
+
+
+
+
+
+-----------------------------------------------
+
+addding pages
+
+- web Form With master
+
+-Select Master page. First Option
+
+
+HTML at top of page
+- page title can be changed
+
+Object Partial Class
+- Doesnt have to be in the same physical file
+
+asp.Content
+- just the same as the @content in razor 
+- 
+
+
+------------------Creating Seperat Site Menu-------------------------------------
+
+
+can drag menu code from toolbox
+
+add new item "site map"
+leave as default name
+
+XML is where you create your own tags and your program processes those tags
+
+
+SitempaNOdes are closed or nested depending if you want sub menus (ON WEBSITEMAP)
