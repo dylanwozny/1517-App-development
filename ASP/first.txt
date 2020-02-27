@@ -86,3 +86,34 @@ XML is where you create your own tags and your program processes those tags
 
 
 SitempaNOdes are closed or nested depending if you want sub menus (ON WEBSITEMAP)
+
+-------------------------------
+
+view > toolbox
+
+can drag content like label, button, textbox
+
+asp: <<<<<<<<<<< infront means this means that they are all classes !
+
+Click on element in editor and look at properties to see what is modified !
+
+Literal is like label
+- label proerties can be changed, literal cannot be changed
+
+- designer mode can be done by pressing at bottom of window editor
+
+------------------------------
+
+when press me button is pressed, this code will be executed in  helloWorld.aspx.cs
+called event driven logic
+event was the pressing of the button
+
+name on xml(id="") and C# must match
+id acts as the variable name
+
+values are always in strings when returing to C# from form
+
+-------------------------------
+
+WEb ASP converts to razor type webpage when you look at web browser source.
+
