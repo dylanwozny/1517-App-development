@@ -11,7 +11,7 @@ layout page and content pages are merged into a html page by processing program
 
 2. Right click project  Add  New Project
 2. Select Visual C#  Web  ASP.NET Web Application (.Net Framework). 
-2.Check Location is in your solution folder. 
+2.
 Select Template. Select Empty for this example. Press OK.
 2.Right click project  Add  New Item. Select Layout Page (Razor v3). Change name to be _Layout.cshtml. Press Ok.
 
