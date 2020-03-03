@@ -1,0 +1,50 @@
+ASP code will be generated into html on webpage
+
+use tool box for drag and drop, label, button etc...
+
+adding new page: "webform with master page"
+
+Choose radio list from tool box, you can click THE BLUE UNDERSCORE > EDIT ITEMS edit for a menu were you can choose number of radio buttons (add item)
+
+Check designer for quick look at things
+
+You can edit radio button list by moving cursor onto code and going to properties and change things like vertical and horizaontal list.
+
+---Code behind------
+
+right click view code OR open up file in menu and select code
+
+protected void Page_Load(object sender, EventArgs e)
+- this is the first method that is processed that you can access
+
+Every control is a class
+Every label id must be unique because it will be an instance of that class
+Everything that goes into form or from is a string.......
+
+https://www.w3schools.in/java-questions-answers/difference-between-classes-objects/
+object vs classs
+object is instance of class
+
+isPost = second time page is displayed !
+
+---adding class----
+
+add item to web app namespace in file explorer
+
+lambda symbol => do the following
+datacollection method: x and y are just placeholders
+
+many steps in order to do setup...
+
+acessingin code
+
+.test
+.list
+
+finding correct access type for the controls
+
+go to design page and double click to create the method
+
+EX
+
+use radio button control as the selection. Make it fill the rest of the form controls.
