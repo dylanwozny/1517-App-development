@@ -1,0 +1,84 @@
+put html content inside </asp:Content>
+-------------------------------------------------------
+
+<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="job app.aspx.cs" Inherits="WebApp.SamplePages.job_app" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <h1>Job Application</h1>
+    <div class="row">
+        <div class="col-md-offset-1 col-md-10">
+            <blockquote class="alert alert-info" style="font-style:italic"></blockquote>
+        </div>
+    </div>
+</asp:Conten
+
+---------------------------
+BOOTWRAP
+
+look at job app for format
+
+need label with AssociatedControlID
+
+<asp:Label ID="Label4" runat="server" Text="Name" AssociatedControlID="Fullorparttime">
+
+DRAG bootwrap-freecode from file explorer on side into hmtl...
+
+
+---------------
+Radio Button
+
+add a radio list, drag and drop from toolbox
+
+---------------
+DOuble clcik in design to get to event code !
+
+
+-------------------AFTER HTML FORAMTTING------------------------
+CODE
+
+
+Clear button: 
+
+            Fullname.Text = "";
+            Email.Text = "";
+            Phone.Text = "";
+            Fullorparttime.SelectedIndex = -1; // clearing list
+            Time.ClearSelection(); // clearing check boxes
+
+
+PageLoad executes before any events
+
+	Empty message are: MessageLabel.Text = "";
+
+Creating message on click
+
+            string msg = "";
+
+            msg += "Name: " + Fullname.Text;
+            msg += "Email: " + Email.Text;
+            msg += "Phone: " + Phone.Text;
+
+Go through radio button list and display the things that were selected
+
+foreach( Listitem jobrow in jobs.Items){} CHECK TEACHERS CODE...
+
+
+-------------Asessesment
+
+ignore search online
+
+star is drop down list
+
+add a message when submitted
+
+change media to radio button list
+
+
+
+
+
+
+
+
+
+
+
