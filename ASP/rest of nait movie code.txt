@@ -1,7 +1,4 @@
-<%@ Page Title="Movie Library" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="NAIT-movie.aspx.cs" Inherits="WebApp.SamplePages.NAIT_movie" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-
-    <div class="row">
+  <div class="row">
             <fieldset class="form-horizontal">
                 <legend>Fill out the form below to add information on the movie for your movie library</legend>
                 <div class="col-md-2">
@@ -28,9 +25,42 @@
                 <div class="col-md-10">
                     <asp:TextBox ID="ISBN" runat="server"></asp:TextBox>                    
                 </div>
+                <div class="col-md-2">
+                    <asp:Label ID="Message" runat="server"></asp:Label>
+                </div>
             </fieldset>
+        <div class="col-md-3 text-right">
+            <asp:Button ID="Submit" runat="server" Text="Submit" CssClass="btn btn-defualt" OnClick="Submit_Click"/>
+            <asp:Button ID="Clear" runat="server" Text="Clear" CssClass="btn btn-success" />
+        </div>
     </div>
-    
 
 
-</asp:Content>
+
+
+
+
+ protected void Page_Load(object sender, EventArgs e)
+        {
+            Message.Text = "";
+        }
+
+        protected void Submit_Click(object sender, EventArgs e)
+        {
+            string msg = "";
+            msg += "ISBN:" + ISBN.Text;
+
+            //print this out
+            Message.Text = msg;
+
+        }
+
+
+
+
+
+
+
+
+
+
