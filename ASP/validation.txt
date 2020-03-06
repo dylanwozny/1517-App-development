@@ -1,0 +1,51 @@
+Storing data in a class
+
+creating list T class to store data
+
+right click project and add class
+
+make get set properties...
+
+----------Creating a new class with multiples properties. Insert that class object into a list. so it can be stored with other objects of that class-----------------------------
+
+add list at top
+
+add new class if checked box agrees to terms
+
+insert class into list..
+
+
+---Now we display the data in grid view
+
+foramtting grid view with css
+
+--Validation-----
+
+Foramtting with bootwrap
+
+html:
+textmode = "Email"
+
+maxlength = "25"
+
+code validation--
+
+Drag validation summary from tool box and add "Header Text"
+
+Drag Validator Required
+
+display none so we dont have double error messages
+
+set focus on error moves cursor to error field
+
+forcolor is color change
+
+validation expression is the format expression for the input                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+
+-----get the validation to work client side
+
+
+encase validation in isvalid brackets
+
+
+
