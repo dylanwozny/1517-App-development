@@ -1,0 +1,96 @@
+namespace.classname
+
+class library: contains many namespaces
+
+physical and logical class organization
+
+WebApp in on project
+class library in another project
+- requires one link
+
+
+
+------LAYERS------Logical------------
+
+1 Presentaion layer
+- User interface
+
+2 Bussiness logic layer
+- used for backend and enforcing BUSINESS RULES
+
+Custom Business objects
+- just classes for business purposes
+
+refer to notes on moodle
+
+
+
+-----Layers----Physical--------------
+
+Refer to notes
+
+fat vs thin client
+
+---------Parellel Development--------------
+
+client- server(application server and web server) - database server
+
+
+
+front end person - client layer, user interface
+s
+business rules, methods, classes - application layer
+
+back end - database maitanence, business rules, triggers
+
+
+
+Firewall
+- between client and web server
+- this person has extremely low privalege 
+
+-canr put another between web server and application server
+- firewall creates 64,000 ports the user must choose from
+
+- can put a firewall between each physical computer
+- can even put a physical computer on a unix machine and windows to make it even harder
+
+- databases can also setup security..
+- Protect Data
+
+
+----SETING UP CLIENT SERVER----------------
+
+- intructions on moodle are old..
+
+first project app 
+
+1.start by creating regular web application first (.net framework)
+2.web forms. no https
+3.create folder and add dummie class (because github does not track an empty folder)
+
+second project class library
+
+1. right click solution and add new project select class library .net framwork
+2. use system in name
+3. create folders for naming and organization.
+4. classes in folders are in diffrent namespaces (libraryname.foldername)
+5. go to Webapp and right click and add reference
+6. got to projects(what you write) and add the reference
+7. add entity framework(blue square) nuget package to class library
+8. add entity framework(blue square) nuget package to WebApp
+9. got to nuget updates, select all and update
+10. install bootwrap (if you want)
+11. install font awesome and drag file (css/font-awesome.min) in sitemaster under favicon link
+
+
+
+
+
+
+
+
+
+
+
+

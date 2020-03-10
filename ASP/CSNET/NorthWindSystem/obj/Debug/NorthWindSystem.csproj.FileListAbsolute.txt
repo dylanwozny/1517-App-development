@@ -1,0 +1,12 @@
+C:\Users\dwozny2\Documents\GitHub\1517-App-development\ASP\CSNET\NorthWindSystem\bin\Debug\NorthWindSystem.dll.config
+C:\Users\dwozny2\Documents\GitHub\1517-App-development\ASP\CSNET\NorthWindSystem\bin\Debug\NorthWindSystem.dll
+C:\Users\dwozny2\Documents\GitHub\1517-App-development\ASP\CSNET\NorthWindSystem\bin\Debug\NorthWindSystem.pdb
+C:\Users\dwozny2\Documents\GitHub\1517-App-development\ASP\CSNET\NorthWindSystem\bin\Debug\EntityFramework.dll
+C:\Users\dwozny2\Documents\GitHub\1517-App-development\ASP\CSNET\NorthWindSystem\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dwozny2\Documents\GitHub\1517-App-development\ASP\CSNET\NorthWindSystem\bin\Debug\EntityFramework.xml
+C:\Users\dwozny2\Documents\GitHub\1517-App-development\ASP\CSNET\NorthWindSystem\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dwozny2\Documents\GitHub\1517-App-development\ASP\CSNET\NorthWindSystem\obj\Debug\NorthWindSystem.csprojAssemblyReference.cache
+C:\Users\dwozny2\Documents\GitHub\1517-App-development\ASP\CSNET\NorthWindSystem\obj\Debug\NorthWindSystem.csproj.CoreCompileInputs.cache
+C:\Users\dwozny2\Documents\GitHub\1517-App-development\ASP\CSNET\NorthWindSystem\obj\Debug\NorthWindSystem.csproj.CopyComplete
+C:\Users\dwozny2\Documents\GitHub\1517-App-development\ASP\CSNET\NorthWindSystem\obj\Debug\NorthWindSystem.dll
+C:\Users\dwozny2\Documents\GitHub\1517-App-development\ASP\CSNET\NorthWindSystem\obj\Debug\NorthWindSystem.pdb
