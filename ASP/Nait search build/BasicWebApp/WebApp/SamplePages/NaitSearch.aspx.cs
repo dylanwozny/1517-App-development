@@ -13,9 +13,50 @@ namespace WebApp.SamplePages
         {
             // load empty feilds on first page refresh
             Message.Text = "";
+
+            //------------------DROP DOWN LIST------------------------
+
+            //the web page has a flag that can be checked to see
+            //   if the web page is posting back
+            if (!Page.IsPostBack)
+            {
+                //if the page is not PostBack, it means that this
+                //    is the first time the page has been displayed
+                //you can do page initialization by testing the 
+                //    IsPostBack
+                // LIST is a bunch of the same classes
+                //Create a List<DDLdata> where T is a class that has
+                //    2 columns: a value and a text display
+
+                List<DDLData> ReviewStars = new List<DDLData>();
+
+                // adding values to the list
+                ReviewStars.Add(new DDLData(1,"1 star"));
+                ReviewStars.Add(new DDLData(2, "2 stars"));
+                ReviewStars.Add(new DDLData(3, "3 stars"));
+                ReviewStars.Add(new DDLData(4, "4 stars"));
+                ReviewStars.Add(new DDLData(5, "5 stars"));
+
+                // SORT
+                ReviewStars.Sort((x, y) => x.displayField.CompareTo(y.displayField));
+
+                // grab form id  and place Review list into drop down list
+                CollectionList.DataSource = ReviewStars;
+
+                // if there is a value and text feild do this
+                CollectionList.DataValueField = "valueField";
+                CollectionList.DataTextField = nameof(DDLData.displayField);
+
+                //bind your data
+                CollectionList.DataBind();
+
+                // add in an insert
+                CollectionList.Items.Insert(0, new ListItem("select...", "0"));
+
+            }
         }
 
-        protected void Submit_Click(object sender, EventArgs e)
+            protected void Submit_Click(object sender, EventArgs e)
         {
 
             //----------------------- FOR TEXT BOX-----------------------
@@ -63,6 +104,9 @@ namespace WebApp.SamplePages
         {
             Rating.ClearSelection();//a method which reset a list (CheckBoxList)
             ISBN.Text = "";
+            CollectionList.SelectedIndex = 0;
+            Membership.ClearSelection();
+
         }
     }
 }
