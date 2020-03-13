@@ -1,0 +1,98 @@
+Like an assembly line
+
+what weve been doing
+-browser to web server
+
+webapp sends request to BLL
+- BLL has classes and methods 
+- BLL DOES NOT  touch database
+- BLL asks DAL through entity framework
+- DAL uses entity framework to interact with DB
+
+
+ENTITY CLASS
+- series of properties in entity class that reflects the attributes on the databse
+- Once entities are mapped, they can be used by each other classes
+- we will put in code so the entity crashes when we have errors
+
+
+
+--------------------------------------------
+
+add class to entities folder
+make public in code
+
+add reference
+- data annotaitons
+- data entity
+(check refrences of dons project to double check)
+
+add table code to top(look at code) to state what table your using
+
+add namespace under defaults, seperate so you know the non defaults
+
+creating properties from table attributes....
+
+[key] => this identifies the attribute to be a primary key.
+[key, column(order = 1)] means the it is a compound primary key (more notes in don's code)
+
+DatabaseGenerated handles generated primary keys 
+
+
+When creating entity table in code
+
+data types
+check if null or not nullable
+
+
+adding in validation above/ in front of property attribue...
+
+
+Read only properties:
+- just makes repetative things easier
+- likes combining name and id in a concocinated string. just call the property.
+- [not mapped]
+- no 'set'
+
+EXERCISE
+
+- this covers page number 2 !
+
+
+------setting up connection string to db
+
+add "web config" to solution
+
+same as razor connection string format (look at dons code)
+
+- new file
+- adding code to current web config
+- adding in entity framework xml code so it crashes when wrong
+- make sure you have entity framework packages....
+- must close file if updating nuget enity framrwork package
+(check github history for dons changes...)
+
+do not rename in file explorer tab
+- if you do, just delete the project and recreate
+
+
+--------CREATE class in DAL Folder..
+
+add in northwind system namespace
+and entity namespace...
+
+
+now you can do all of the exercise....done by monday...
+
+
+
+
+
+
+
+
+
+
+
+
+
