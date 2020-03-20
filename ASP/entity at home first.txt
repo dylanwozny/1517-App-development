@@ -1,0 +1,65 @@
+first class of next week is in-class assesment
+Exercises...expected to deliver up to github repository
+
+territory primary key
+
+-primary key is a string
+-need generated key....
+
+DAL
+- entities set singular
+- db sets are plural
+- tables are set here with db and plural naming convention
+
+-Dons diagram online for architecture
+- DAL interacts with database
+- entities are the MAP for DAL's database interaction 
+- we need to go through DAL class to interact with front end webpage
+- BLL is the area where the classes DAL and front end(webapp) interact
+- web page can only make a call to BLL, then interacts with DAL and entities,
+they retreive from database, then return to BLL and Webapp.
+
+
+BLL
+need to add using clause at beggining if accessing classes outside your namespace
+
+Region controller
+
+- entity framework does most of the work. only need return and make it to a list
+
+
+
+BLL (contains tables info)
+
+- add using add top so it can access db namespace
+- just copy and paste from other examples.
+- change table names, dont forget the plural table names
+- change to appropriate primary key
+- change to public
+- rebuild solution
+
+
+WEBPAGE(search)
+
+- format with boostrap, not bootwrap
+- click on search button in design
+- add code to onclick event as seen in dons notes !
+- dont use a string when you have a catch. use "ex"
+- other error messages a string is fine just not catch
+- everything are classes, adhere to all the rules of classes.
+- in try
+- define a class to use
+- then use class method
+- product query list: information in list is loaded when page is first loaded
+- remember to put if(page.post is back)
+
+
+
+assignment(link on moodle)
+
+use: A1 or A2 or A3 or A14 or A15 or A4 or A5 or A11
+- figure out which one you would like to do !
+
+
+
+
