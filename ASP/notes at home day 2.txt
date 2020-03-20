@@ -1,0 +1,50 @@
+LAB
+
+create crud form
+
+go to student notes 
+look at lab requirments in github specs
+
+CUT DOWN TO TWO DELIVERABLES (week 10) A5 for me !
+- marked in repository, put on repository by due date
+- second is eliminated
+- deliverable 1 might be pushed to first class of week 12(don will send email about due date)
+- deliverable 4 is the same
+- deliverable 3 ?
+
+
+given connection string in lab requirments
+
+all requirments are in lab requirments
+
+menu in CSNET Solution bootsrap 4+
+
+CRUD will be done in class in future
+insert,update,delete
+
+depending on the instructions, delete will be logical(keep record) or physical(complete removal)
+
+displaying the records in grid view
+
+look at marking guide line for the requirements of deliverables !
+
+under crud and query are the specifications
+
+add Don to contacts to ask questions....
+
+entities are tables.....need three for my table, ONLY code for your specific lab
+
+visual studio can already create a class table... look at dons video on how to do !
+- to install this view option, you need to goto installer....
+
+
+
+---class lecture------
+
+to add new items in folders, right click > add > new item
+
+creating grid
+click blue tag of gridview and customize grid....
+
+
+
