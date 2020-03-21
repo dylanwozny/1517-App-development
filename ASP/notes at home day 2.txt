@@ -46,5 +46,5 @@ to add new items in folders, right click > add > new item
 creating grid
 click blue tag of gridview and customize grid....
 
-
+tuesday - inclass assesment 3 basic web forms...
 

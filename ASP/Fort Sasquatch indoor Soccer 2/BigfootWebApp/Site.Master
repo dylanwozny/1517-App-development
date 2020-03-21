@@ -37,8 +37,9 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
+        
 
-        <div class="navbar navbar-inverse navbar-fixed-top">
+           <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -53,11 +54,12 @@
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
-                        <li><a runat="server" href="~/ExercisePages/ExerciseHome">Exercise Home</a></li>
+                        <li><a runat="server" href="~/ExercisePages/ExerciseHome">Exercise Pages</a></li>
                     </ul>
                 </div>
             </div>
         </div>
+        
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>

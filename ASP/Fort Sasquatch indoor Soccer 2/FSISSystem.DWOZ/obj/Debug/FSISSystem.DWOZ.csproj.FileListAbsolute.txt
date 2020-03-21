@@ -5,8 +5,8 @@ C:\Users\Dylan\Documents\GitHub\1517-App-development\ASP\Fort Sasquatch indoor S
 C:\Users\Dylan\Documents\GitHub\1517-App-development\ASP\Fort Sasquatch indoor Soccer 2\FSISSystem.DWOZ\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Dylan\Documents\GitHub\1517-App-development\ASP\Fort Sasquatch indoor Soccer 2\FSISSystem.DWOZ\bin\Debug\EntityFramework.xml
 C:\Users\Dylan\Documents\GitHub\1517-App-development\ASP\Fort Sasquatch indoor Soccer 2\FSISSystem.DWOZ\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Dylan\Documents\GitHub\1517-App-development\ASP\Fort Sasquatch indoor Soccer 2\FSISSystem.DWOZ\obj\Debug\FSISSystem.DWOZ.csprojAssemblyReference.cache
 C:\Users\Dylan\Documents\GitHub\1517-App-development\ASP\Fort Sasquatch indoor Soccer 2\FSISSystem.DWOZ\obj\Debug\FSISSystem.DWOZ.csproj.CoreCompileInputs.cache
 C:\Users\Dylan\Documents\GitHub\1517-App-development\ASP\Fort Sasquatch indoor Soccer 2\FSISSystem.DWOZ\obj\Debug\FSISSystem.DWOZ.csproj.CopyComplete
 C:\Users\Dylan\Documents\GitHub\1517-App-development\ASP\Fort Sasquatch indoor Soccer 2\FSISSystem.DWOZ\obj\Debug\FSISSystem.DWOZ.dll
 C:\Users\Dylan\Documents\GitHub\1517-App-development\ASP\Fort Sasquatch indoor Soccer 2\FSISSystem.DWOZ\obj\Debug\FSISSystem.DWOZ.pdb
+C:\Users\Dylan\Documents\GitHub\1517-App-development\ASP\Fort Sasquatch indoor Soccer 2\FSISSystem.DWOZ\obj\Debug\FSISSystem.DWOZ.csprojAssemblyReference.cache

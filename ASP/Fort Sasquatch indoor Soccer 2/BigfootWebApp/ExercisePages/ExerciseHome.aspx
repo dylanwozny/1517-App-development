@@ -6,5 +6,6 @@
     <h2>Known Problems</h2>
     <ul>
         <li>images do not show up ..</li>
+        <li>Nav bar does not format correctly... even when copying and pasting code ! cant do drop down list</li>
     </ul>
 </asp:Content>
