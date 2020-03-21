@@ -41,7 +41,7 @@ visual studio can already create a class table... look at dons video on how to d
 
 ---class lecture------
 
-to add new items in folders, right click > add > new item
+to add new items in folders, right click > add > existing item
 
 creating grid
 click blue tag of gridview and customize grid....
