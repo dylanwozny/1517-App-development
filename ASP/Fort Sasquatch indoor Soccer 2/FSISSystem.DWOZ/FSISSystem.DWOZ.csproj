@@ -55,6 +55,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Enitites\Guardian.cs" />
     <Compile Include="Enitites\Player.cs" />
+    <Compile Include="Enitites\Team.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -96,6 +97,13 @@
     <None Include="Scripts\umd\popper.js.flow" />
     <None Include="Scripts\umd\popper.js.map" />
     <None Include="Scripts\umd\popper.min.js.map" />
+    <Content Include="Web.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-grid.css" />
