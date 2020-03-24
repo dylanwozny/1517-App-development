@@ -1,5 +1,7 @@
 LAB
 
+PUT menu in reference file called site map !
+
 create crud form
 
 go to student notes 

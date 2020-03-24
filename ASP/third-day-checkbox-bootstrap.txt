@@ -14,6 +14,8 @@ put html content inside </asp:Content>
 ---------------------------
 BOOTWRAP
 
+PUT menu in reference file called site map !
+
 look at job app for format
 
 need label with AssociatedControlID
