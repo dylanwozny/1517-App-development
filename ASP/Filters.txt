@@ -1,0 +1,66 @@
+Excercises: keep up to date !!!!
+
+look up with a drop down list
+Grid View scenerio
+look up with text box
+
+---------------FILTERs--------------
+
+have a demo
+
+full video online available
+
+--AUTO POST BACK--
+
+no button
+just make a selection from list and it automatically gives you a grid view(nothing special in grid view)
+
+
+-partial name lookup with text box-
+
+
+-multi-parameter-
+
+Put in both fields
+
+-Drill Down-
+
+one selection > that fills another selection
+
+
+----------------CODING THESE---------------
+
+adding to code behind page (filter.aspx)
+
+Don is coding in demo area of filter page
+
+first example: drill down.
+
+
+--first BUTTON CLICK EVENT--
+
+--working with two parameters
+
+Exercise 6 and 7 require filter searches...
+
+-----CODING PAGE VIEW WITH GRID WITHOUT ODS-----
+
+on thursaday
+
+two more classes... last three weeks will be working on your projects
+
+ODS is not the solution to everything....
+
+get excercises done... marks by monday but might be due earlier ?
+
+NEXT DELIVERABLE DUE.....3rd class of week 14..April 17th...deliverable 3
+
+
+
+
+
+
+
+
+
+

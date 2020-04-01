@@ -10,6 +10,9 @@ put html content inside </asp:Content>
         </div>
     </div>
 </asp:Conten
+-----------------INTELLESENSE--------
+
+drag bootstap.min.css from CONTENT Folder into site map to create a stylesheet link!
 
 ---------------------------
 BOOTWRAP

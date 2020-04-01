@@ -76,7 +76,7 @@ second project class library
 3. create folders for naming and organization.
 4. classes in folders are in diffrent namespaces (libraryname.foldername)
 5. go to Webapp and right click and add reference
-6. got to projects(what you write) and add the reference
+6. 
 7. add entity framework(blue square) nuget package to class library
 8. add entity framework(blue square) nuget package to WebApp
 9. got to nuget updates, select all and update

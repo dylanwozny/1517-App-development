@@ -1,0 +1,22 @@
+ODS auto grabs list info
+this references the controllers
+reference the obs in drop down list
+
+set ods at bottom and then add drop down list tag
+
+configure by clicking the blue arrow and window will pop up
+
+value.ToString();
+
+if list items are nullable, put in an if else statment selecting the index value of 0 (refer to dons video)
+
+Exercise Six, jsut code behind
+Exercise Seven, use ODS
+
+Loooking up products listed by their FOREIGN KEY
+
+hit space bar to activate intellesense
+
+using stored procedure
+
+rebuild bll and web page before using stored procedure.
