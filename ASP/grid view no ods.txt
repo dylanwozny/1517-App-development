@@ -1,0 +1,18 @@
+Handeling paging without ODS
+
+when you click on next page of grid view, its gives you an error....
+
+paging happens in xml with "allowpaging, pagesize etc...." under gird view tag...
+customizing grid paging can be done by selecting gridview and going into properties in bottom right
+
+validation can be turned off on button by adding "CausesValidation = false"
+
+can format grid view with elements properties in xml, check code...
+
+look up= connect to controller, check result and output and if somthing is
+found, bind to gridview < check in code in behind page...
+need sql query lookup. when not loooking up by primary key...example in gridview behind coe.
+
+in properties window when in designer mode, click grid in designer, click on lightning bolt
+
+refer to dons video for rest..

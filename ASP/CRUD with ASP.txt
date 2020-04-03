@@ -1,0 +1,28 @@
+quick exmaple of validation on xml side review
+
+Query page exmpale from before uses ODS
+
+FINAL PROJECT RULE: can do both ODS and code behind. Must use both at least once
+
+ODS review at 108: 
+
+project overview tommorow..
+
+---CRUD Continued--
+
+ASP Web Page validation
+drag from toolbox and make sure you have validation summary for output
+
+click button to add event to code behind
+for add product button, add (isValid) to check asp Web Form validation
+
+additional error testing can be done on code behind
+Custom if statment validation
+
+SelectedIndex are code behind validation, making sure a drop down
+list selection is picked !
+
+--Now on to processing data--
+
+-- FOR TEST -- unless otherwise indicated, on test just use web page validation
+and add a catch catch ex message error messsage in code behind
